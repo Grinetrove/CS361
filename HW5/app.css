@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.center-container {
+    max-width: 80%;  
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.center-container h2 {
+    color: #9d4656;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#balance {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #9d4656; /* Primary color */
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.graph {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #9d4656;
+    margin-bottom: 20px;
+}
+
+.small-text {
+    font-size: 10;
+}
+
+.join-code {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #9d4656;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #9d4656;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c3843;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+a {
+    color: #9d4656;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #96bbcd; 
+    color: #000000; 
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
+}
+
+.center-container p {
+    color: #555; 
+}
+
+body {
+    background-color: #96bbcd; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #96bbcd; 
+    color: #000;
+}
+
+table button {
+    padding: 5px 10px;
+    margin: 2px 2px;
+    background-color: #9d4656; 
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #7c3843;
+}
+
+.help-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #96bbcd;  /* Secondary color */
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.help-button:hover {
+    background-color: #7aa4b5;
+}
